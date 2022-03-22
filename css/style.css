@@ -1,0 +1,99 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Commons */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+:root {
+    --column-easy : 10;
+    --column-normal : 9;
+    --column-hard : 7;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+    color: black;
+}
+
+.heading {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.left-options {
+    padding: 30px 0;
+    float: right;
+}
+
+.left-options a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #eeeeee;
+    color: black;
+    padding: 0 20px;
+    border: 1px solid black;
+}
+
+/* Main */
+main {
+    font-weight: bold;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+}
+
+.clicked {
+    background-color: #6495ed;
+    color: white;
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    line-height: 50px;
+}
